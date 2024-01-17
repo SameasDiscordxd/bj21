@@ -241,7 +241,7 @@ def shuffleCards(cards):
 # need to know value of a hand
 def hand_value(hand):
     value = 0
-    ace count = 0
+    ace_count = 0
     for card in hand:
         if card['name'] == 'Ace':
             ace_count += 1
